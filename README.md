@@ -3,4 +3,5 @@ Counter Reactのバックエンド Node (Express)
 
 #How to Use
 $ npm i
-$ node index.js
+
+$ node index.jsx
