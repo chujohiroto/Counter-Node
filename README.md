@@ -1,7 +1,7 @@
 # Counter-Node
 Counter Reactのバックエンド Node (Express)
 
-#How to Use
+# How to Use
 $ npm i
 
 $ node index.jsx
