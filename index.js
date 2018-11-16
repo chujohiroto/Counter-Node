@@ -48,7 +48,7 @@ app.get("/", function (req, res) {
 app.post("/save", function (req, res) {
     const id = req.body.id;
     const count = req.body.count;
-    db.query('REPLACE INTO counter VALUES(?,?) ON DUPLICATE KEY UPDATE id  = ? ,count = ?', [id, count, id, count],
+    db.query('INSERT INTO counter VALUES(?,?)', [id, count],
         function (error) {
             if (error) {
                 console.log(error);
